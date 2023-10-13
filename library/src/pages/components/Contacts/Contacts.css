@@ -1,0 +1,39 @@
+#contacts {
+  .container {
+    display: block;
+    padding-top: 0;
+  }
+}
+
+.contacts__container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  padding: 60px 0 40px;
+  & iframe {
+    width: 696px;
+    height: 414px;
+  }
+}
+
+.contacts__data {
+  font-size: 20px;
+  line-height: 40px;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}
+
+.contacts__data-heading {
+  margin-top: 0;
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+.contacts__data-heading:last-of-type {
+  margin-top: 40px;
+  margin-bottom: 22px;
+}
+
+.contacts__map {
+
+}
