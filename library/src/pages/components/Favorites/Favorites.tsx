@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import BOOKS from '../../../data/data';
+import BOOKS from '../../../data/books';
 import './Favorites.css';
 
 type IhandleRadio = (e: React.ChangeEvent<HTMLInputElement>) => void;
