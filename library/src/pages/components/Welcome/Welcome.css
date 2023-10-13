@@ -1,0 +1,29 @@
+.welcome {
+  background: no-repeat url('../../../assets/images/Welcome.jfif') lightgray 50% / cover;
+  height: 600px;
+  .container {
+    padding: 0;
+  }
+}
+
+.welcome__shadow {
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(180deg, #0C0C0E 0%, #0C0C0E 0.01%, rgba(18, 18, 21, 0.10) 100%);
+}
+
+.welcome__heading {
+  position: absolute;
+  bottom: -174px;
+  width: 600px;
+  padding: 35px 40px;
+  color: #fff;
+  background-color: var(--main-dark-color);
+  text-align: center;
+  font-family: Forum;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
